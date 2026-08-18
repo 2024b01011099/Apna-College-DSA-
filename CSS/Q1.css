@@ -1,0 +1,22 @@
+h2{
+    color:orange;
+    text-align:center;
+    background-color:olive;
+    text-decoration: wavy underline;
+    font-size: 50px;
+    
+}
+button{
+    color:white;
+    background-color:blue;
+    font-weight: 700;
+    font-size: 30px;
+    
+    
+}
+p{
+    color:#faf8f8;
+    background-color:teal;
+    font-weight: 700;
+    text-decoration:line-through;
+}

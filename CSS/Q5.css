@@ -1,0 +1,60 @@
+/* .card {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius:5px;
+    background-color: aqua;
+    box-shadow: 0px 4px 8px black;
+    transition: 2s;
+
+}
+.desc {
+    padding-left:0 2px 0 2px;
+
+}
+img {
+    height: 100px;
+    width: 199.5px; 
+}
+.card:hover {
+     box-shadow: 0 8px 16px black;
+     
+} */
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    display: inline-block;
+
+}
+#static {
+    background-color: yellow;
+    position: static;
+    left: 100px;
+    right: 100px;
+}
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;/*offset*/
+}
+#absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#fixed  {
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
