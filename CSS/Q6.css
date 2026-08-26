@@ -2,7 +2,8 @@
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-color: yellow;
+    background-color: rgb(244, 244, 79);
+    
 }
 #mouth {
     width: 200px;
@@ -12,6 +13,7 @@
     position: absolute;
     top: 250px;
     left: 100px;
+    
 
 } 
  #lefteye{
@@ -32,3 +34,9 @@
     top: 100px;
     left: 250px;
 } 
+#face:hover {
+    background-color: yellow;
+    transform: 2s;
+}
+    
+    
